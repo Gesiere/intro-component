@@ -2,7 +2,7 @@
     --primary-red-color: hsl(0,100%,74%);
     --primary-green-color: hsl(154, 59%, 49%);
     --accent-color: hsl(248, 10%, 49%);
-    --neutral-dark-color: hsl(249,10%,26%);
+    --neutral-dark-color:hsl(249, 48%, 36%);
     --neutral-gray-color: hsl(246, 25%, 77%);
     --fs-body: 16px;
 }
@@ -57,3 +57,61 @@ body{
     opacity:0.8;
 }
 
+
+.form-control{
+    border: 2px solid green;
+    width: 30rem;
+    padding: 2rem 2rem;
+}
+
+.form-control .form-label{
+    background-color: var(--neutral-dark-color);
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem
+}
+
+.form-control .form-label p{
+    font-size:0.8rem ;
+    text-align: center;
+}
+
+.form-control .form-label span{
+    color: var(--neutral-gray-color);
+}
+
+.form-card{
+    background-color: #fff;
+    height: 27rem;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.form-input input{
+    width: 100%;
+    padding: 0.7rem;
+    border: 2px solid #f0f0f0;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+.form-input input:focus{
+    outline: none;
+    border-color: var(--neutral-gray-color);
+}
+
+.form-card small{
+    position: absolute;
+    right: 1rem;
+    color: var(--primary-red-color);
+    font-size: 0.6rem;
+
+}
+
+.form-card i{
+    position: relative;
+    color: var(--primary-red-color);
+    top: -30px;
+    left: 15rem;
+}
