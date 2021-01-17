@@ -1,0 +1,25 @@
+:root{
+    --primary-red-color: hsl(0,100%,74%);
+    --primary-green-color: hsl(154, 59%, 49%);
+    --accent-color: hsl(248, 10%, 49%);
+    --neutral-dark-color: hsl(249,10%,26%);
+    --neutral-gray-color: hsl(246, 25%, 77%);
+    --fs-body: 16px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-body);
+    background-image: url(/images/bg-intro-desktop.png);
+    background-color: var(--primary-red-color);
+    width: 100%;
+    height: 100vh;
+}
+
+

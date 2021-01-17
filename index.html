@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/style.css">
     <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
@@ -19,10 +25,22 @@
                 </div>
                 <div class="form-card">
                     <form action="" class="form">
-                        <input type="text" placeholder="First name ">
-                        <input type="text" placeholder="Last Name">
-                        <input type="email" name="" id="">
-                        <input type="password" placeholder="Password">
+                        <div class="form-input">
+                            <input type="text" placeholder="First name ">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <div class="form-input">
+                            <input type="text" placeholder="Last Name">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <div class="form-input">
+                            <input type="email" name="" id="" placeholder="Email">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <div class="form-input">
+                            <input type="password" placeholder="Password">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
 
                         <button class="btn">Claim your free trial</button>
                     </form>
