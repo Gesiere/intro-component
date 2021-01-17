@@ -34,4 +34,26 @@ body{
     /* padding: 2rem; */
 }
 
+.sub-section-one{
+    border: 2px solid black;
+    color: #fff;
+    height: 12rem;
+    width:37rem ;
+    padding: 2rem;
+
+}
+
+.sub-section-one h1{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.sub-section-one p{
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+    opacity:0.8;
+}
 
