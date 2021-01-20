@@ -189,7 +189,7 @@ input::placeholder{
     .main-section{
         flex-direction: column;
         text-align: center;
-        max-width: none;
+        max-width: 375px;
         min-width:8rem ;
         height: 55rem;
         width: 27rem;
@@ -204,7 +204,6 @@ input::placeholder{
         line-height: 1.6rem;
     }
 
-    /
 
     .form-control{
         width: 100%;
