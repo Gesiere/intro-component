@@ -85,7 +85,7 @@ body{
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     text-align: right;
-    /* position: relative; */
+    position: relative;
 }
 
 .visible{
@@ -137,10 +137,15 @@ input::placeholder{
 }
 
 .form-card  .error-icon{
-    position: relative;
-    top: -30px;
-    left: 8rem;
-    display: none;
+    background-image: url(/images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position:right ;
+    
+}
+
+
+input .error-icon.show{
+    display: inline;
 }
 
 
@@ -206,11 +211,7 @@ input::placeholder{
         line-height: 1.6rem;
     }
 
-    .form-input .error-icon{
-        position: relative;
-        left: 8rem;
-        top: -30px;
-    }
+    /
 
     .form-control{
         width: 100%;
