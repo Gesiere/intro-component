@@ -181,7 +181,7 @@ input::placeholder{
     .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media (min-width: 375px){
+@media (max-width: 1000px){
     body{
         background-image: url(/images/bg-intro-mobile.png);
     }
