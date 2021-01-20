@@ -9,7 +9,9 @@ form.addEventListener('submit', (e) => {
         if (input.value.trim() === '' || input.value === null) {
             e.preventDefault();
             errorFunc(input, index)  
-        }          
+        } else if (input.value.trim()) {
+            removeFuncError(input,index)
+        }        
     })
     
 });
@@ -27,7 +29,12 @@ function errorFunc (input, index){
 
 
 
-
+function removeFuncError(input, index) {
+      inputFields[index].classList.add('input-warning');
+    inputFields[index].classList.add('error-icon')
+    formCard.classList.add('visible');
+    errorMessage[index].classList.add('invalid');
+}
 
 
 

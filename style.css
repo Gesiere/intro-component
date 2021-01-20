@@ -144,13 +144,6 @@ input::placeholder{
 }
 
 
-input .error-icon.show{
-    display: inline;
-}
-
-
-
-
 
 .form-card .btn{
     background-color: var(--primary-green-color);
@@ -188,7 +181,7 @@ input .error-icon.show{
     .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media (max-width: 775px){
+@media (max-width: 375px){
     body{
         background-image: url(/images/bg-intro-mobile.png);
     }
